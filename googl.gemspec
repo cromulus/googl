@@ -73,7 +73,7 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<httparty>, ["~> 0.10.0"])
+      s.add_runtime_dependency(%q<httparty>, ["~> 0.11.0"])
       s.add_runtime_dependency(%q<json>, [">= 1.4.6"])
       s.add_development_dependency(%q<rspec>, ["~> 2.10.0"])
       s.add_development_dependency(%q<bundler>, ["~> 1.2.3"])
