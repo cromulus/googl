@@ -11,8 +11,8 @@ module Googl
         self.client_secret = client_secret
       end
 
-      def authorize_url
-        make_authorize_url("urn:ietf:wg:oauth:2.0:oob")
+      def authorize_url(url)
+        make_authorize_url(url)
       end
 
       def request_access_token(code)
