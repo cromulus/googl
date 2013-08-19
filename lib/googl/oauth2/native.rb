@@ -15,8 +15,8 @@ module Googl
         make_authorize_url(url)
       end
 
-      def request_access_token(code)
-        request_token(code)
+      def request_access_token(code,url)
+        request_token(code,url)
       end
 
     end
